@@ -32,7 +32,6 @@ public class PuzzleScript : MonoBehaviour {
                 puzzleImages[mixedPuzzleIndex].GetComponent<Image>().sprite = puzzleActualState[mixedPuzzleIndex];
             }
         }
-        winningDialog.SetActive(true);
 	}
 
     public bool areElementsInCorrectOrder() {
